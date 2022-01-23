@@ -894,7 +894,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".kD6BF2sPDrVrYONWfGAw {\n    width: 100%;\n    max-width: 1100px;\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-rows: 1fr 1fr;\n    padding: 20px;\n    gap: 20px;\n}\n@media (min-width: 1100px) {\n    .kD6BF2sPDrVrYONWfGAw {\n        margin: 0 auto;\n        row-gap: 110px;\n    }\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".kD6BF2sPDrVrYONWfGAw {\n    max-width: 1100px;\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-rows: 1fr 1fr;\n    padding: 20px;\n    gap: 20px;\n}\n@media (min-width: 1100px) {\n    .kD6BF2sPDrVrYONWfGAw {\n        margin: 0 auto;\n        row-gap: 110px;\n    }\n}", ""]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"bodyOption": "kD6BF2sPDrVrYONWfGAw"
