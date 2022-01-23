@@ -4,11 +4,11 @@ module.exports = {
     "mode": "none",
     "entry": "./src/index.js",
     "output": {
-        "path": __dirname + '/dist',
+        "path": __dirname + '/build',
         "filename": "bundle.js"
     },
     devServer: {
-        static: './dist'
+        static: './build'
     },
     "module": {
         "rules": [
