@@ -1,0 +1,58 @@
+.resultBody {
+    display: grid;
+    row-gap: 40px;
+    grid-template-rows: 30px 1fr 40px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.resultBody > p {
+    font-size: 24px;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.userResult {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.userResult::after {
+    content: "You piked";
+    position: relative;
+    left: 50px;
+    top: 15px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.houseResult {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.houseResult::after {
+    content: "House Picked";
+    position: relative;
+    left: 40px;
+    top: 15px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.againButton {
+    width: 90px;
+    height: 32px;
+    margin: 0 auto;
+    background: none;
+    border: 3px solid hsl(217, 16%, 45%);
+    color: aliceblue;
+    font-size: 14px;
+    border-radius: 3px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
